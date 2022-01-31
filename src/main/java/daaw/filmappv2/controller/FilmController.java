@@ -14,11 +14,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import daaw.filmappv2.model.Film;
 import daaw.filmappv2.service.FilmService;
-import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/peliculas")
-@RequiredArgsConstructor
 public class FilmController {
 
     @Autowired

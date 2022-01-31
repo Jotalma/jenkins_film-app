@@ -8,10 +8,8 @@ import org.springframework.stereotype.Service;
 
 import daaw.filmappv2.model.Film;
 import daaw.filmappv2.repository.FilmRepository;
-import lombok.RequiredArgsConstructor;
 
 @Service
-@RequiredArgsConstructor
 public class FilmService {
 
     @Autowired
