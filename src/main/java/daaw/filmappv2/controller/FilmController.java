@@ -55,6 +55,6 @@ public class FilmController {
 
     @GetMapping("/hola")
     public String hola(){
-        return "Hola que tal.";
+        return "Hola.";
     }
 }
