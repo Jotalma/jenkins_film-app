@@ -52,4 +52,9 @@ public class FilmController {
     public void delete(@PathVariable String id){
         filmService.deleteById(id);
     }
+
+    @GetMapping("/hola")
+    public String hola(){
+        return "Hola que tal.";
+    }
 }
